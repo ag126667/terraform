@@ -34,4 +34,3 @@ environment:
     reference: user_0.password
   - label: GCP Project ID
     reference: project_0.project_id
-assessment: assessment.yaml
