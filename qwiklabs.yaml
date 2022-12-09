@@ -2,8 +2,8 @@ schema_version: 2
 default_locale: en
 title: Terraform Lab Demo
 description: This lab is only for understanding and learning terraform
-duration: 60
-max_duration: 90
+duration: 90
+max_duration: 120
 credits: 1
 tags:
 - Terraform Demo
