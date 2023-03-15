@@ -13,5 +13,9 @@ jobs:
         uses: hashicorp/terraform-github-actions@master
         with:
           tf_actions_version: 0.12.18
+          tf_actions_cli_credentials_hostname: app.terraform.io
+          tf_actions_comment: true
+          tf_actions_working_dir: .
+          tf_actions_fmt_write: false
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
